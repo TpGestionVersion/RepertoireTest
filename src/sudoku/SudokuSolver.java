@@ -5,9 +5,9 @@ package sudoku;
      *    java SudokuSolver <input-file>
      * For details of the input-file format,see the Grid.java class.
      *
-     * @author  Patrick Chan
-     * @version 1,12/31/05
-     * @see Grid
+     * @author  Durand Robin
+     * @version 1, 09/04/14
+     * @see SudokuSolver
      */
     import java.io.*;
     import java.util.*;
@@ -17,7 +17,7 @@ package sudoku;
             // Open the file containing the givens
             File file = new File(args[0]);
             FileReader rd = new FileReader(args[0]);
-
+        
             // Process each grid in the file
             while (true) {
                 Grid grid = Grid.create(rd);
