@@ -5,7 +5,7 @@ package sudoku;
      *    java SudokuSolver <input-file>
      * For details of the input-file format,see the Grid.java class.
      *
-     * @author  Patrick Chan
+     * @author  Oktest
      * @version 1,12/31/05
      * @see Grid
      */
