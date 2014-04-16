@@ -1,7 +1,7 @@
 package sudoku;
 
 /**
- * @author  Patrick Chan
+ * @author  Robin Durand
  * @version 1, 12/31/05
  * @see SudokuSolver
  */
