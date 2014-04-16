@@ -17,7 +17,8 @@ package sudoku;
             // Open the file containing the givens
             File file = new File(args[0]);
             FileReader rd = new FileReader(args[0]);
-        
+            System.out.println("test");
+            System.out.println("test2");
             // Process each grid in the file
             while (true) {
                 Grid grid = Grid.create(rd);
